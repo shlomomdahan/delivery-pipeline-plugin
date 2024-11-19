@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Get configuration from data attributes
+
     const configSpan = document.querySelector(".fullscreen-data-holder");
     const crumbRequestField = configSpan.dataset.crumbField;
     const crumbValue = configSpan.dataset.crumbValue;
